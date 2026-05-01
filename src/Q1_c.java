@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class Q1_b {
+public class Q1_c {
     public static void main(String[] args) {
-        int X,Y;
-        double Z;
+        int X,Y,Z;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -13,7 +12,8 @@ public class Q1_b {
         System.out.print("Enter your Y No:");
         Y = scanner.nextInt();
 
-        Z = X + (4*(Math.pow(Y,3)));
-        System.out.println(Math.sqrt(Z));
+        Z = X*Y;
+
+        System.out.println(Math.cbrt(Z));
     }
 }
